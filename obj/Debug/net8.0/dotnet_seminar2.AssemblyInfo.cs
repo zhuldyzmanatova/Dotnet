@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dotnet_seminar2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab043ba1a8f7b45dc731fb55dbae920eb3c9fdb9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ddbc49b148f1c263c60321925357e119eb25fba5")]
 [assembly: System.Reflection.AssemblyProductAttribute("dotnet_seminar2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dotnet_seminar2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

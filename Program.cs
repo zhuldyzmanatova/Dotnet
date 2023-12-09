@@ -165,7 +165,7 @@
 // }
 // else
 // {
-//     Console.WriteLine("Числа не подходят");
+//     Console.WriteLine("Точка в начале осей координат");
 // }
 
 // Задача 3: Напишите программу, которая принимает
@@ -204,13 +204,14 @@
 // 8 => 8
 // 9542 => 9,5,4,2
 
+
 Console.Write("Введите число N ");
-int N = int.Parse(Console.ReadLine());
+int N = int.Parse(Console.ReadLine()); 
 
-int a = N; 
-
-while (a > 0)
+int k = N;
+while (k > 0)
 {
-    a = a % 10;
+    int a = k % 10;
+    Console.Write($"{N} => {a%10}, ");
+    k = k/10;
 }
-Console.Write($"{N} => {a}, ");
